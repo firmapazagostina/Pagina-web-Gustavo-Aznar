@@ -1,6 +1,6 @@
 *{
     body{
-        background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.766), rgba(0, 0, 0, 0.804)), url(media/mamor.jpg) ;
+        background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.766), rgba(0, 0, 0, 0.804)), url(images/) ;
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center;
@@ -176,7 +176,7 @@ button{
         display: block;
         border: 5;
         font-size: 1.25rem;
-        background-image: url("media/logo.jpg");
+        background-image: url("images/logo.jpg");
         cursor: pointer;
     }
     .abrir-menu{
@@ -255,17 +255,17 @@ button{
     }
     .carta:first-child{
         background-image: linear-gradient( 0deg,
-        rgb(0, 0, 0, 0.5), rgba(0,0,0,0.5)), url("media/bat.jpg");
+        rgb(0, 0, 0, 0.5), rgba(0,0,0,0.5)), url("images/bat.jpg");
         border-radius: 5%;
     }
     .carta:nth-child(2){ 
         background-image: linear-gradient( 0deg,
-        rgb(0, 0, 0, 0.5), rgba(0,0,0,0.5)), url("media/bat.jpg");
+        rgb(0, 0, 0, 0.5), rgba(0,0,0,0.5)), url("images/bat.jpg");
         border-radius: 5%;
     }
     .carta:nth-child(3){
         background-image: linear-gradient( 0deg,
-        rgb(0, 0, 0, 0.5), rgba(0,0,0,0.5)), url("media/bat.jpg");
+        rgb(0, 0, 0, 0.5), rgba(0,0,0,0.5)), url("images/bat.jpg");
         border-radius: 5%;
     }
     
