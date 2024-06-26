@@ -149,7 +149,7 @@ button{
 
 @media screen and (max-width: 550px){
     *{
-        background-color: black;
+        
         .imagenpresentacion,
         .imagentrayectoria{
             visibility: hidden;
@@ -160,6 +160,7 @@ button{
         flex-direction: column-reverse;
         padding-bottom: 20px;
     }
+    
     header{
         flex-direction: row;
     }
@@ -186,7 +187,12 @@ button{
         color: aliceblue;
         background-color: black;
     }
-
+    #presentacion .container{
+        background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.766), rgba(0, 0, 0, 0.804)), url("images/mamor.jpg") ;
+        background-size: auto;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
     .nav{
         opacity: 0;
         visibility: hidden;
