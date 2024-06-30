@@ -9,3 +9,9 @@ abrir.addEventListener("click",() => {
 cerrar.addEventListener("click", () => {
     nav.classList.remove("visible")
 })
+const enlaces = document.querySelectorAll("#nav a");
+enlaces.forEach(enlace => {
+    enlace.addEventListener("click", () => {
+        nav.classList.remove("visible");
+    });
+});
