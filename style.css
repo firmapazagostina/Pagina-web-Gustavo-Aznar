@@ -167,7 +167,7 @@ button{
     
     header{
         flex-direction: row;
-        width: 100%;
+        width:auto;
     }
     .inicio{
         flex-direction: row;
