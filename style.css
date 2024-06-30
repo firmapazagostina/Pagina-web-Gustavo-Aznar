@@ -151,6 +151,7 @@ button{
     *{
         body{
             background-image: none;
+            width: 100%;
         }
         .imagenpresentacion,
         .imagentrayectoria{
@@ -161,10 +162,12 @@ button{
         text-align: center;
         flex-direction: column-reverse;
         
+        
     }
     
     header{
         flex-direction: row;
+        width: 100%;
     }
     .inicio{
         flex-direction: row;
