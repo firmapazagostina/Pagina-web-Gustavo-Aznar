@@ -49,9 +49,10 @@ a{
     width: 300px;
     margin-left: 10px;
 }
-li{
-    padding-right: 10px;
+.nav-list li{
+    padding-right: 11vh;
 }
+
 .iconoi,
 .iconow,
 .iconol
@@ -75,20 +76,19 @@ li{
 .nav{
     display: flex;
     align-items: center;
-
+    
     
 }
 .redes{
     display: flex;
     list-style: none;
-    justify-content: space-between;
-    margin-left: 30px;
-    padding-right: 20px;
+}
+.redes li{
+    padding-right: 2vh;
 }
 .nav-list{
     list-style: none;
     display: flex;
-    gap: 0;
 }
 .nav-list li a{
     text-decoration: none;
@@ -223,12 +223,12 @@ button{
         position: fixed;
         top: 0;
         right: 0;
-       
+        justify-content: space-evenly;
         bottom: 0;
         background-color: rgb(139, 19, 219);
         padding: 1rem;
-        padding-top: 5vh;
-        bottom: 0;
+        padding-top: 0vh;
+        
         box-shadow: 0 0 0 100vmax rgba(0, 0, 0, 0.5);
     }  
     .nav.visible{
@@ -241,9 +241,11 @@ button{
         align-items: end;
         gap: 3rem;
         padding-top: 30px;
+
     }
-    .nav-list{
+    .nav-list li{
         color: aliceblue;
+        padding-right: 0%;
     }
     .redes li{
         display: flex;
