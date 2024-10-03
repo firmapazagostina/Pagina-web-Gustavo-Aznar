@@ -1,0 +1,14 @@
+[user]
+	name = Agostina Firma Paz
+	email = 114773064+firmapazagostina@users.noreply.github.com
+[filter "lfs"]
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true
+[core]
+	autocrlf = true
+[http]
+	postBuffer = 257286400
+[sendpack]
+	sideband = false
