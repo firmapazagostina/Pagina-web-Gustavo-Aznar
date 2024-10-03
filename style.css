@@ -1,5 +1,6 @@
 *{
     body{
+
         background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.766), rgba(0, 0, 0, 0.804)), url("images/mamor.jpg") ;
         background-repeat: no-repeat;
         background-size: cover;
@@ -14,7 +15,7 @@
 p{
     font-size: 20px;
     font-family: Arial, Helvetica, sans-serif;
-    
+
 }
 header{
     display: flex;
@@ -24,7 +25,7 @@ header{
     background-color: rgb(0, 0, 0);
     border-bottom: 2px solid rgb(26, 11, 107);
     box-shadow: 2px 2px 10px rgb(26, 11, 107);
-    
+
 }
 a{
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -71,13 +72,13 @@ a{
     height: 80px;
     border-radius: 15px;
     padding: 0;
-    
+
 }
 .nav{
     display: flex;
     align-items: center;
-    
-    
+
+
 }
 .redes{
     display: flex;
@@ -111,7 +112,7 @@ h1{
     padding-bottom: 20px;
     padding-left: 0;
     text-align: center;
-    
+
 }
 .imagenpresentacion{
     padding: 10px;
@@ -124,16 +125,40 @@ h1{
     height: 550px;
 }
 #demos .container{
-    display: block;
-    text-align: center;
-    align-items: center;
-}
-.videos{
-    
+    width: 100vw;
     display: flex;
-    justify-content: space-evenly;
+
 }
 
+#demos .carta{
+    display: flex;
+    padding: 30px;
+    justify-content:space-between;
+    align-items: center;
+    flex-direction: row;
+}
+.descripcion{
+    text-align: left;
+    justify-content: space-between;
+    margin-left: 30px;
+}
+.videos{
+
+    display: block;
+    justify-content: space-evenly;
+}
+#demos .carta2{
+    display: flex;
+    padding:  30px 30px 30px 0px ;
+    justify-content:space-between;
+    align-items: center;
+}
+.descripcion2{
+    text-align: left;
+    justify-content: space-between;
+    margin-left: 30px;
+    margin-right: 30px;
+}
 
 button{
    justify-content: space-between;
@@ -143,36 +168,39 @@ button{
    border-radius: 5px;
    border: none;
 }
+#formulario{
+    display:flex;
+
+    width: 100vw;
+    height: 100%;
+
+}
+.imagenform{
+    display: block;
+
+    padding: 0px;
+}
 .imfor{
     display: flex;
-    flex-direction:row-reverse;
+    flex-direction:column;
     background-color: black;
-    margin-left: 100%;
 
 }
 .formu{
-    padding: 20px;
-    width: 107vh;
+    padding: 30px;
+    width: 100vh;
 }
 .contform{
     padding-left: 20px;
-    
+
     display: flex;
-    
-    height: 1000px;
+
+    height: 100vw;
 }
-#formulario{
-    display:flex;
-    background-image: url("images/mamor.jpg");
-    background-repeat: no-repeat;
-    background-position: initial;
-    width: 50%;
-    height: 100%;
-    
-}
+
 .cont{
-    width: 500px;
-    height: 600px;
+    width: 50vw;
+    height: 60vw;
 }
 #textopropu{
     font-size: 3rem;
@@ -199,7 +227,7 @@ textarea{
 .boton{
     display: block;
     padding-top: 20px;
-    
+
 }
 .enviar{
     border: 2px solid rgb(53, 56, 53);
@@ -225,10 +253,10 @@ textarea{
         align-items: center;
         text-align: center;
         flex-direction: column-reverse;
-        
-        
+
+
     }
-    
+
     header{
         flex-direction: row;
         width:550px;
@@ -251,12 +279,12 @@ textarea{
     }
     .abrir-menu{
         color: rgb(255, 255, 255);
-        
+
     }
     .cerrar-menu{
         color: aliceblue;
         background-color: black;
-        
+
     }
     #presentacion .container{
         background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.766), rgba(0, 0, 0, 0.804)), url("images/mamor.jpg") ;
@@ -283,7 +311,7 @@ textarea{
         flex-direction: column;
         align-items: end;
         gap: 1rem;
-    
+
         position: fixed;
         top: 0;
         right: 0;
@@ -292,13 +320,13 @@ textarea{
         background-color: rgb(139, 19, 219);
         padding: 1rem;
         padding-top: 30px;
-        
+
         box-shadow: 0 0 0 100vmax rgba(0, 0, 0, 0.5);
     }  
     .nav.visible{
         opacity: 1;
         visibility: visible;
-    
+
     }
     .nav-list{
         flex-direction: column;
@@ -330,50 +358,58 @@ textarea{
         color: aliceblue;
     }
 
-    
-  
+
+
     h1{
         padding-bottom: 30px;
     }
     p{
         text-align:justify;
     }
-   
+
     #demos .container{
+        display: flex;
         background-color: black;
         text-align: center;
         align-items: center;
         padding: 50px;
-    
+        flex-direction: column;
+        width: 550px;
+    }
+   #demos .carta{
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+
+    }
+    #demos .carta2{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
     .carta h2{
         color: bisque;
         padding-bottom: 10px;
     }
-    
-    
+
     .videos{
-        flex-direction: row;
-        display: block;
-        justify-content: space-evenly;
+
+        display: flex;
+
     }
-    .carta:first-child{
-        background-image: linear-gradient( 0deg,
-        rgb(0, 0, 0, 0.5), rgba(0,0,0,0.5)), url("images/bat.jpg");
-        border-radius: 5%;
+    .descripcion, .descripcion2{
+
+
+        display: flex;
+        text-align: left;
+        flex-direction: column;
+        padding: 20px;
+        margin: 0px;
+        align-items:baseline;
     }
-    .carta:nth-child(2){ 
-        background-image: linear-gradient( 0deg,
-        rgb(0, 0, 0, 0.5), rgba(0,0,0,0.5)), url("images/bat.jpg");
-        border-radius: 5%;
+    .descripcion2{
+        margin-left: 30px;
     }
-    .carta:nth-child(3){
-        background-image: linear-gradient( 0deg,
-        rgb(0, 0, 0, 0.5), rgba(0,0,0,0.5)), url("images/bat.jpg");
-        border-radius: 5%;
-    }
-    
-    
     button{
         font-size: 1.5em;
         font-weight: bold;
@@ -389,25 +425,25 @@ textarea{
     button:hover{
         background-color: rgb(0, 255, 64);
         color: aliceblue;
-         
+
     }
     .red{
         padding: 0%;
     }
-    
+
     #formulario{
         display: flex;
         justify-content: space-evenly;
         flex-direction: row;
-        
-        
+
+
     }
     .formu{
         width: 261px;
-     }
-    
+    }
+
     .imfor{
-        
+
         display: flex;
         flex-direction: column;
         align-items:baseline;
@@ -415,32 +451,28 @@ textarea{
         padding-left: 5%;
         width: 550px;
     }
-    
+
     #textopropu{
         font-size: 1.5rem;
     }
     label{
         font-size: 1rem;
         color: white;
-        
+
         padding: 0;
     }
-    
+
     input,
     textarea{
-       
-       
-        
-        
         padding: 5px;
         border-radius: 5px;
         border: 1px solid black;
     }
-    
+
     .enviar{
         border: 2px solid rgb(53, 56, 53);
         color: rgb(53, 56, 53);
-        
-        
+
+
     }
 }
