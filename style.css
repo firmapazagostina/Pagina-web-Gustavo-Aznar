@@ -1,17 +1,28 @@
 *{
-    body{
+    
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: aliceblue;    
+    
+    /*outline: 1px solid red;  Esto ayuda a identificar qué elemento está causando el margen */
+    
+    
+}
+html, body {
+    overflow-x: hidden;
+}
+
+body{
 
         background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.766), rgba(0, 0, 0, 0.804)), url("images/mamor.jpg") ;
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center;
+        margin: 0;
+        padding: 0;
     }
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    color: aliceblue;
-}
 p{
     font-size: 20px;
     font-family: Arial, Helvetica, sans-serif;
@@ -184,11 +195,12 @@ button{
     display: flex;
     flex-direction:column;
     background-color: black;
+    width: 660px;
 
 }
 .formu{
     padding: 30px;
-    width: 100vh;
+    width:auto;
 }
 .contform{
     padding-left: 20px;
@@ -207,6 +219,7 @@ button{
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 label{
+    
     font-size: 2rem;
     margin-top: 20px;
     display: block;
@@ -214,6 +227,7 @@ label{
 }
 input,
 textarea{
+    color: black;
     display: block;
     width: 100%;
     height: 6%;
@@ -238,7 +252,9 @@ textarea{
     font-size: 2rem;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
-
+footer{
+    width: 100%;
+}
 @media screen and (max-width: 550px){
     *{
         body{
@@ -376,7 +392,7 @@ textarea{
         flex-direction: column;
         width: 550px;
     }
-   #demos .carta{
+    #demos .carta{
         display: flex;
         flex-direction: column-reverse;
         align-items: center;
@@ -439,7 +455,7 @@ textarea{
 
     }
     .formu{
-        width: 261px;
+        width: auto;
     }
 
     .imfor{
