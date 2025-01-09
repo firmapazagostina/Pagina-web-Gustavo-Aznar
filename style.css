@@ -320,20 +320,21 @@ footer{
     }
     .nav{
         opacity: 0;
-        visibility: hidden;
+        visibility: hidden; 
+        border-left: 2px solid rgb(0, 255, 64);
     }
     .nav{
         display: flex;
         flex-direction: column;
         align-items: end;
         gap: 1rem;
-
+       
         position: fixed;
         top: 0;
         right: 0;
         justify-content: normal;
         bottom: 0;
-        background-color: rgb(139, 19, 219);
+        background-color: rgb(0, 0, 0);
         padding: 1rem;
         padding-top: 30px;
 
@@ -348,7 +349,8 @@ footer{
         flex-direction: column;
         align-items: end;
         gap: 3rem;
-        padding-top: 10px;
+        padding-top: 20px;
+        padding-bottom: 20px;
 
     }
     .nav-list li{
@@ -360,11 +362,17 @@ footer{
         justify-content: space-evenly;
         padding: 10%;
     }
-    .iconoi,
-    .iconol,
-    .iconow{
-        width: auto;
+    img.iconoi,
+    img.iconol,
+    img.iconow{
+        width: 50px;
+        height: 50px;
         border-radius: 10px;
+        image-resolution: 50px;
+    }
+    .red{
+        background-color: black;
+        background-image: url("images/whats.webp");
     }
     header{
         border-bottom: 2px solid rgb(0, 255, 64);
