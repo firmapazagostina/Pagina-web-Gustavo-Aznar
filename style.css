@@ -457,7 +457,14 @@ footer{
     .formu{
         width: auto;
     }
-
+    .imagenform{
+        height: 466px;
+        width: 100%;
+    }
+    .cont{
+        height: 100%;
+        width: 100%;
+    }
     .imfor{
 
         display: flex;
