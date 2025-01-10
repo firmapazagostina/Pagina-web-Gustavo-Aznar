@@ -459,7 +459,7 @@ footer{
         display: flex;
         justify-content: space-evenly;
         flex-direction: row;
-
+        width: 550px;
 
     }
     .formu{
