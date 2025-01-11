@@ -203,7 +203,7 @@ button{
     width: auto;
     justify-content: auto;
     align-items: center;
-    margin-bottom: 30px;
+    height: 768px;
 }
 .contform{
     padding-left: 20px;
@@ -246,8 +246,8 @@ textarea{
 }
 .boton{
     display: block;
-    padding-top: 20px;
-    height: 300px;
+    padding-top: 50px;
+    
 }
 button.enviar:hover{
     background-color: rgb(0, 255, 64);
@@ -258,11 +258,13 @@ button.enviar:hover{
     border: 2px solid rgb(255, 255, 255);
     color: rgb(255, 255, 255);
     background-color: black;
-    display: block;
+    display: flex;
     width: 50%;
-    height: 30%;
+    height: 80px;
     font-size: 2rem;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    justify-content: center;
+    align-items: center;
 }
 footer{
     width: 100%;
@@ -457,6 +459,7 @@ footer{
         background-color: aliceblue; 
         color: rgb(0, 255, 64);
         border: 2px solid rgb(0, 255, 64);
+        padding-top: 10px;
     }
     button.enviar:hover{
         background-color: rgb(0, 255, 64);
@@ -477,6 +480,7 @@ footer{
     .formu{
         width: auto;
         margin-bottom: 0px;
+        height: 439px;
     }
     .imagenform{
         height: 439px;
@@ -516,7 +520,7 @@ footer{
     }
     .boton{
         width: 100%;
-        height: 70%;
+        padding-top: 20px;
         
     }
     .enviar{
@@ -524,9 +528,10 @@ footer{
         color: rgb(255, 255, 255);
         padding: 0px;
         width: 100%;
-        height: 40%;
+        height: 30px;
         font-size: 1rem;
         background-color: black;
+        display: flex;
     }
     footer{
         background-color: black;
